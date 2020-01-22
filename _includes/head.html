@@ -1,0 +1,56 @@
+	<head>
+		<title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  		{% include meta.html %}
+		
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ '/assets/css/reset.css' | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ '/assets/css/post.css' | prepend: site.baseurl }}">
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+		<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+
+		<script>
+			$(document).ready(function(){
+				var ua = window.navigator.userAgent;
+					if(ua.indexOf('MSIE ') > 0 || ua.indexOf('Trident/') > 0){ //윈도우 10까지는 MSIE 윈도우 11부터는 Trident/를 사용한다.
+						document.body.className="ie";
+				}
+			});
+		</script>
+
+		<!--[if lte IE 8]>
+		<script type="text/javascript">
+			window.location = "ie8.html";
+		</script>
+		<![endif]-->
+
+
+	</head>
+	<body id="top">
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><h1>PORTFOLIO</h1>
+						<hr>
+						<h5>Visual Designer : Lee Mina</h5></a>
+					<!-- <ul>
+						{% for category in site.categories %}
+						  <li><a href="/category/{{ category | first }}/"># {{ category | first }}</a></li>	    
+						{% endfor %}
+					</ul> -->
+					<ul>
+						<li><a href="/category/Web/">#웹디자인</a></li>
+						<li class="enter"><a href="/category/App/">#앱디자인</a></li>
+						<li><a href="/category/HTML,CSS/">#HTML,CSS</a></li>
+						<li class="enter"><a href="/category/JS,Jquery/">#JS,Jquery</a></li>
+						<li><a href="/category/Planning/">#기획</a></li>
+						<li><a href="/category/PPT/">#PPT</a></li>
+						<li><a href="/category/GraphicDesign/">#그래픽디자인</a></li>
+						<li><a href="/category/ETC/">#기타</a></li>
+					</ul>
+				</div>
+				{% include footer.html %}
+			</header>
