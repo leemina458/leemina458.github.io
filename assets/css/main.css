@@ -103,8 +103,8 @@
 		.container {
 			width: 960px;
 		}
-		.\36 u, .\36 u\24 {
-			width: 50% !important;
+		article.\36 u, .\36 u\24 {
+			width: 50%;
 		}
 
 	}
@@ -1420,7 +1420,7 @@
 		}
 
 		.\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
-			width: 100% !important;
+			width: 100%;
 			clear: none;
 			margin-left: 0;
 		}
