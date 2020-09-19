@@ -1420,7 +1420,7 @@
 		}
 
 		.\31 2u\28xsmall\29, .\31 2u\24\28xsmall\29 {
-			width: 100%;
+			width: 100% !important;
 			clear: none;
 			margin-left: 0;
 		}
@@ -2614,7 +2614,7 @@
 			}
 
 		#right #one h2 { margin-bottom:50px; }
-		#right #one p { font-size:14px; color:#aaa; line-height: 24px;}
+		#right #one p { font-size:15px; color:#999; line-height: 24px;}
 			
 		.post_row p { display:block; font-size:13px; }
 		.post_row header h2 { margin-bottom:0; }

@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "LG전자 금형센터 생산관제 시스템"
+title: "금형센터 생산관제 시스템"
 date: 2018-01-03
 categories:
-  - Web
-  - HTML,CSS
-  - GraphicDesign
+  - Design
 image: https://leemina458.github.io/images/pages/20180103_lg_dashboard.png
 image-sm: https://leemina458.github.io/images/thumbs/20180103_lg_dashboard.png
 ---
@@ -17,7 +15,7 @@ image-sm: https://leemina458.github.io/images/thumbs/20180103_lg_dashboard.png
            <a href="/category/{{ categories }}/"># {{ categories }}</a>     
       	{% endfor %}</li>
 	<li class="preview__role" itemprop="role">- 역할(참여율) : 디자인(90%)</li>
-	<li class="preview__excerpt" itemprop="description">- 작업 내용 : LG전자 금형공장의 생산·설비 가동 현황 등을 모니터링하고 이력을 관리하는 시스템입니다.</li>
+	<li class="preview__excerpt" itemprop="description">- 작업 내용 : 금형공장의 생산·설비 가동 현황 등을 모니터링하고 이력을 관리하는 시스템입니다.</li>
 	<!-- <li class="preview__link" itemprop="link">- 더보기 : <a href="{{ page.link }}" target="_blank">{{ page.link }}</a></li> -->
 </ul>
 

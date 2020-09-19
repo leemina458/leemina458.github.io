@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "에어릭스 집진기 모니터링 시스템"
+title: "집진기 모니터링 시스템"
 date: 2017-01-06
 categories:
-  - Web
-  - HTML,CSS
-  - GraphicDesign
+  - Design
 image: https://leemina458.github.io/images/pages/20170106_aerix_thingarx.png
 image-sm: https://leemina458.github.io/images/thumbs/20170106_aerix_thingarx.png
 ---
