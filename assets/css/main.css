@@ -211,6 +211,9 @@
 			width: 960px;
 		}
 
+		article.\36 u, .\36 u\24 {
+			width: 100%;
+		}
 	}
 
 /* Grid */
