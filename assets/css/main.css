@@ -2547,12 +2547,11 @@
 		}
 
 		#header ul { list-style:none; margin-top:0; padding:0;}
-		#header ul li { display:inline; margin:0; padding:0; }
 		#header ul li.enter:after { content:'\A'; white-space: pre; }
-		#header ul li a { font-size:14px; color:#fff; opacity:0.9; }
+		#header ul li a { font-size:18px; color:#fff; opacity:0.9; }
 		#header ul li a:hover { color:#ffea4b; }
 		#header ul li a:active { color:#ffea4b; }
-
+		#header .inner ul li {display: block;}
 		#header .image.avatar {
 			display:inline-block;
 			margin: 0 0 45px 0;
@@ -2568,7 +2567,7 @@
 		#footer .icons a {
 			color: rgba(255, 255, 255, 0.7);
 		}
-		#footer ul li { padding-left:0; font-size:14px; color: rgba(255, 255, 255, 0.7);}
+		#footer ul li { display:inline; margin:0; padding:0; font-size:14px; color: rgba(255, 255, 255, 0.7);}
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
@@ -2595,7 +2594,8 @@
 			#footer .copyright li a {
 				color: inherit;
 			}
-
+			
+		
 /* Main */
 
 	#right {

@@ -4,8 +4,8 @@ title: "챗봇 주문관리 서비스"
 date: 2018-07-01
 categories:
   - Design
-image: https://leemina458.github.io/images/pages/20180701_domino.png
-image-sm: https://leemina458.github.io/images/thumbs/20180701_domino.png
+image: https://leemina458.github.io/images/pages/20180701_dom_chatbot.png
+image-sm: https://leemina458.github.io/images/thumbs/20180701_dom_chatbot.png
 link : https://domichat.dominos.co.kr/html/Chatting.html?_no=2945
 ---
 
@@ -17,6 +17,7 @@ link : https://domichat.dominos.co.kr/html/Chatting.html?_no=2945
       	{% endfor %}</li>
     <li class="preview__role" itemprop="role">- 역할(참여율) : 디자인(100%)</li>
     <li class="preview__excerpt" itemprop="description">- 작업 내용 : 챗봇 기능을 접목시킨 자동화 주문서비스입니다. 모바일웹/하이브리드앱에서 이용할 수 있습니다.</li> 
+    <li class="preview__link" itemprop="link">- 더보기 : <a href="{{ page.link }}" target="_blank">서비스 바로가기</a></li>
 </ul>
 
 ![_config.yml]({{ page.image }})
