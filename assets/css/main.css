@@ -2955,7 +2955,7 @@
 				}
 	
 				#header ul { width:80%; margin:2em auto 0; text-align:center; } 	
-				#header ul li { display:inline-block; float:none; padding:0 0.6em; } 	
+				#header .inner ul li { display:inline-block; float:none; padding:0 0.6em; } 	
 				#header ul li a { font-size:14px; line-height:normal; } 	
 				#header ul li.enter { clear:none; }
 				#right #one p { font-size:12px; line-height:20px; }
